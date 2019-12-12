@@ -1,5 +1,5 @@
 {{-- layouts/admin.blade.phpを読み込む --}}
-@extends('layouts.profile')
+@extends('layouts.admin')
 
 
 {{-- admin.blade.phpの@yield('title')に'ニュースの新規作成'を埋め込む --}}
@@ -23,25 +23,25 @@
             <div class="form-group row">
                 <label class="col-md-2">氏名</label>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" name="name" value="{{ old('name') }}">
+                    <input type="text" class="form-control" name="name" value="{{ old('title') }}">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-2">性別</label>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
+                    <input type="text" class="form-control" name="gender" value="{{ old('title') }}">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-2">趣味</label>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" name="hobby" value="{{ old('hobby') }}">
+                    <input type="text" class="form-control" name="hobby" value="{{ old('body') }}">
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-2">自己紹介欄</label>
                 <div class="col-md-10">
-                    <textarea class="form-control" name="introduction" rows="20">{{ old('introduction') }}</textarea>
+                    <textarea class="form-control" name="introduction" rows="20">{{ old('body') }}</textarea>
                 </div>
             </div>
 

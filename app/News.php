@@ -13,4 +13,11 @@ class News extends Model
         'title' => 'required',
         'body' => 'required',
     );    
+
+        public function histories()
+    {
+      return $this->hasMany('App\History');
+
+    }
 }
+

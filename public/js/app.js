@@ -49455,6 +49455,28 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/front.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/front.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n  }\n  ^\n      Expected \"}\".\n   ╷\n56 │   }\n   │    ^\n   ╵\n  stdin 56:4  root stylesheet\n      in /home/ec2-user/environment/mynews/resources/sass/front.scss (line 56, column 4)\n    at runLoaders (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at render (/home/ec2-user/environment/mynews/node_modules/sass-loader/dist/index.js:89:7)\n    at Function.call$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:54416:16)\n    at _render_closure1.call$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:33511:12)\n    at _RootZone.runBinary$3$3 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:19804:18)\n    at _RootZone.runBinary$3 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:19808:19)\n    at _FutureListener.handleError$1 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18273:19)\n    at _Future__propagateToListeners_handleError.call$0 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18561:40)\n    at Object._Future__propagateToListeners (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:3486:88)\n    at _Future._completeError$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18397:9)\n    at _AsyncAwaitCompleter.completeError$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:17796:12)\n    at Object._asyncRethrow (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:3242:17)\n    at /home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:10539:20\n    at _wrapJsFunctionForAsync_closure.$protected (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:3265:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:17817:12)\n    at _awaitOnObject_closure0.call$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:17809:25)\n    at _RootZone.runBinary$3$3 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:19804:18)\n    at _RootZone.runBinary$3 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:19808:19)\n    at _FutureListener.handleError$1 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18273:19)\n    at _Future__propagateToListeners_handleError.call$0 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18561:40)\n    at Object._Future__propagateToListeners (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:3486:88)\n    at _Future._completeError$2 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18397:9)\n    at _Future__asyncCompleteError_closure.call$0 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:18487:18)\n    at Object._microtaskLoop (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:3536:21)\n    at StaticClosure._startMicrotaskLoop (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:3542:11)\n    at _AsyncRun__scheduleImmediateJsOverride_internalCallback.call$0 (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:17718:21)\n    at invokeClosure (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:1358:26)\n    at Immediate.<anonymous> (/home/ec2-user/environment/mynews/node_modules/sass/sass.dart.js:1379:18)\n    at processImmediate (internal/timers.js:443:21)");
+
+/***/ }),
+
+/***/ "./resources/sass/front2.scss":
+/*!************************************!*\
+  !*** ./resources/sass/front2.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/profile.scss":
 /*!*************************************!*\
   !*** ./resources/sass/profile.scss ***!
@@ -49467,16 +49489,18 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/profile.scss ***!
-  \***********************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/admin.scss ./resources/sass/profile.scss ./resources/sass/front.scss ./resources/sass/front2.scss ***!
+  \********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/sass/app.scss */"./resources/sass/app.scss");
 __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/sass/admin.scss */"./resources/sass/admin.scss");
-module.exports = __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/sass/profile.scss */"./resources/sass/profile.scss");
+__webpack_require__(/*! /home/ec2-user/environment/mynews/resources/sass/profile.scss */"./resources/sass/profile.scss");
+__webpack_require__(/*! /home/ec2-user/environment/mynews/resources/sass/front.scss */"./resources/sass/front.scss");
+module.exports = __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/sass/front2.scss */"./resources/sass/front2.scss");
 
 
 /***/ })
